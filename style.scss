@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header */
+  header {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  nav {
+    background-color:#fff; /* Change to your desired color */
+    /* width:; */
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    display: inline;
+  }
+
+  nav a {
+    color: #520a0a;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #2196F3;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .cta-button:hover {
+    background-color: #2196F3;
+    color: #fff;
+  }
+
+  /* About Section */
+  #about {
+    padding: 40px;
+    background-color: #f3f3f3;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image-container {
+    flex: 1;
+    /* width: 50%; */
+  }
+
+  .content-container {
+    flex: 1;
+    padding: 0 40px;
+  }
+
+  /* Services Section */
+  #services {
+    padding: 40px;
+    background-color: #fff;
+  }
+
+  .benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .benefit {
+    flex-basis: 300px;
+    margin: 20px;
+  }
+
+  .benefit img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  /* Contact Section */
+  #contact {
+    padding: 40px;
+    background-color: #2196F3;
+    color: #fff;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  label,
+  input {
+    margin-bottom: 10px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    border: none;
+  }
+
+  input[type="submit"] {
+    background-color: #fff;
+    color: #2196F3;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  .image-container1{
+    width:50%;
+  }
+  .img1{
+    width: 100%;
+  }
+  body{
+    background-image: url('AdobeStock_525297947_Preview');
+    background-size: cover;
+    opacity: 0.8;
+  }
